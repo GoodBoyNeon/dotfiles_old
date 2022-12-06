@@ -1,0 +1,57 @@
+{
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false,
+        "**/.hg": false,
+        "**/.svn": false,
+        "**/CVS": false,
+        "**/Thumbs.db": false
+    },
+    "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+    },
+
+    // VIM SETTINGS --
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [";"],
+            "after": [":"]
+        },
+        {
+            "before": ["<leader", "e"],
+            "commands": ["workbench.action.toggleActivityBar"],
+        }
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["k", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "editor.minimap.autohide": true,
+    "editor.minimap.maxColumn": 100,
+    "redhat.telemetry.enabled": false,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "window.zoomLevel": 1,
+    "workbench.startupEditor": "none",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "workbench.productIconTheme": "fluent-icons",
+    "files.autoSave": "afterDelay"
+}
